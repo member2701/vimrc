@@ -1,0 +1,17 @@
+call plug#begin()
+
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+set number
+set tabstop=4
+set autoindent
+set mouse=a 
+set mousehide 
+set ruler
+
+Plug 'morhetz/gruvbox' 
+Plug 'dracula/vim'
+call plug#end()
+colorscheme gruvbox
+set background=dark
